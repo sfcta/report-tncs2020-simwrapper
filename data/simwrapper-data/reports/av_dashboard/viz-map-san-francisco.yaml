@@ -1,9 +1,9 @@
-title: "AV Trip Origins - Los Angeles"
-description: "Trips originating in Los Angeles by Census Tract (2010 geographies)\nsource:CPUC AV Quarterly Deployment Reports"
+title: "AV Trip Origins - San Francisco"
+description: "Trips originating in San Francisco by Census Tract (2010 geographies)\nsource:CPUC AV Quarterly Deployment Reports"
 zoom: 11.7
 center:
-    - -118.3401
-    - 34.0634 
+    - -122.41
+    - 37.77
 shapes: 
     file: av_trip_origins.geojson
     join: GEOID10
@@ -13,7 +13,7 @@ display:
     fill:
         dataset: av_trip_origins.geojson
         columnName: total
-        join: ""
+        join: GEOID10
         normalize: av_trip_origins.geojson:sqmi
         colorRamp:
             ramp: Plasma
@@ -22,7 +22,7 @@ display:
     fillHeight:
         dataset: av_trip_origins.geojson
         columnName: total
-        join: ""
+        join: GEOID10
         normalize: av_trip_origins.geojson:sqmi
         scaleFactor: 50
 
