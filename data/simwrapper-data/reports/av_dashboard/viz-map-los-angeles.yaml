@@ -2,8 +2,8 @@ title: "AV Trip Origins - Los Angeles"
 description: "Trips originating in Los Angeles by Census Tract (2010 geographies)\nsource:CPUC AV Quarterly Deployment Reports"
 zoom: 11.7
 center:
-    - -118.3401
-    - 34.0634 
+    - -118.36
+    - 34.02 
 shapes: 
     file: av_trip_origins.geojson
     join: GEOID10
