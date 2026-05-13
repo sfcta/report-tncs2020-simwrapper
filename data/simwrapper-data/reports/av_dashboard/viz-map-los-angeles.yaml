@@ -2,8 +2,8 @@ title: "File: av_origins.geojson"
 description: Miscellaneous/AV
 zoom: 11.7
 center:
-    - -118.3401
-    - 34.0634 
+    - -122.41
+    - 37.77
 shapes: 
     file: av_trip_origins.geojson
     join: GEOID10
