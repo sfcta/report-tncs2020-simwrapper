@@ -1,5 +1,5 @@
-title: "File: av_origins.geojson"
-description: Miscellaneous/AV
+title: "AV Trip Origins - Los Angeles"
+description: "Trips originating in Los Angeles by Census Tract (2010 geographies)\nsource:CPUC AV Quarterly Deployment Reports"
 zoom: 11.7
 center:
     - -122.41
