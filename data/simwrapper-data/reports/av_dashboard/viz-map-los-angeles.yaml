@@ -3,7 +3,7 @@ description: "Trips originating in Los Angeles by Census Tract (2010 geographies
 zoom: 10.9
 center:
     - -118.36
-    - 34.02 
+    - 34.00 
 shapes: 
     file: av_trip_origins.geojson
     join: GEOID10
